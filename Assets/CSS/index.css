@@ -15,21 +15,67 @@
 a {
     color: #fff;
 } */
-
-.topnav {
-    overflow: hidden;
+/* navbar */
+ .navbar{
+    
     background-color: #B5A2A2;
-    padding-top:40px;
+    width: 100%;
   }
-  .topnav a {
+
+  .collapse ul li{
+      font-size: 2rem;
+      padding:0 10px ;
+  }
+ .nav-link:hover{
+     border-right: 4px solid whitesmoke;
+     border-bottom:4px solid whitesmoke ;
+     color: #fff;
+     transform: scale(0.78);
+ }
+/* end of navbar */
+
+ /* footer */
+ footer{
+     padding:20px;
+     font-size: 14px;
+     height:50%;
+ }
+ .f-one i{
+     display: flex;
+     margin-left:170px;
+     padding: 5px;
+ } 
+ .f-two{
+     list-style: none;
+     font-size: 20px;
+     transform: uppercase;
+     padding: 5px;
+ }
+ footer h5{
+     text-decoration: underline;
+     font-weight: 600;
+ }
+ .f-three{
+     padding: 35px;
+     text-align: center;
+     font-size: 10px;
+ }
+ .fab:hover{
+     transform: scale(0.88);
+     color: #fff;
+ }
+ footer p {
+     font-size: 15px;
+ }
+
+  /* .topnav a {
     float: left;
     display: block;
     color: black;
     text-align: center;
-    padding: 20px 60px;
+    padding: 20px;
     text-decoration: none;
     font-size: 25px;
-    font-family: courier new;
     font-weight: bold;
   }  
   .topnav a:hover {
@@ -38,23 +84,7 @@ a {
   .topnav a.active {
     color: gainsboro;
   }
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 20px 60px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: courier new;
-    font-weight: bold;
-  }  
-  .topnav a:hover {
-    color: whitesmoke;
-  }  
-  .topnav a.active {
-    color: gainsboro;
-  }  
+
   .topnav .icon {
     display: none;
   } 
@@ -69,7 +99,7 @@ a {
 }
 .space{
     padding-top: 40px;
-}
+} */ 
 
 /* end of styling navbar */
 
