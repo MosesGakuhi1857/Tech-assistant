@@ -224,3 +224,20 @@ $(document).ready (function(){
         $(".hireForm3").hide();
 
     });
+
+    // Animating technician 2
+
+    $("#reviewsButton2").click(function(events){
+
+        $(".reviews2").slideToggle();
+        $(".hireForm2").hide();
+
+    });
+
+    $("#hireButton2").click(function(){
+
+        $(".hireForm2").slideToggle();
+        $(".hireForm1").hide();
+        $(".hireForm3").hide();
+
+    });
