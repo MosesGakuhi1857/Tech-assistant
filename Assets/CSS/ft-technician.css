@@ -138,3 +138,33 @@ button {
 }
 
 /* end of form styles */
+
+/* footer styles */
+
+footer{
+    /* width: 100%; */
+    background-color: #9F9090;
+    border:1px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#header1 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#112011;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+#rights {
+    padding-top: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
