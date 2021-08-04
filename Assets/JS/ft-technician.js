@@ -203,3 +203,24 @@ $(document).ready(function(){
 });
 
 // end of vidation of the code
+
+// toggles
+
+$(document).ready (function(){
+
+    // animating tecnician 1
+
+    $("#reviewsButton1").click(function(events){
+
+        $(".reviews1").slideToggle();
+        $(".hireForm1").hide();
+
+    });
+
+    $("#hireButton1").click(function(){
+
+        $(".hireForm1").slideToggle();
+        $(".hireForm2").hide();
+        $(".hireForm3").hide();
+
+    });
