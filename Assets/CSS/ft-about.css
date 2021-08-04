@@ -7,4 +7,16 @@ body{
 .space {
   padding: 40px;
 }
+.logo {
+  height: 69px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B5A2A2;
+  color: black;
+  text-align: center;
+} 
   
