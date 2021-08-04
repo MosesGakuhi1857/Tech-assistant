@@ -1,73 +1,54 @@
 body{
-  overflow-x: hidden;
-  }
+  overflow-x: hidden;
+}
 #nav{
-  background-color: #B5A2A2;
+  background-color: #B5A2A2;
 }
-.space {
-  padding: 40px;
+.space {
+  padding: 40px;
 }
-.logo {
-  height: 69px;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+/* .logo {
+  height: 69px;
+} */
+.footer {
+  left: 0;
+  bottom: 0;
   width: 100%;
-  background-color: #B5A2A2;
-  color: black;
-  text-align: center;
+  background-color: #B5A2A2;
+  color: black;
+  text-align: center;
 }
 *{
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
-}  
-.topnav {
-  overflow: hidden;
-  background-color: #B5A2A2;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 20px 60px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: courier new;
-  font-weight: bold;
-}  
-.topnav a:hover {
+.topnav {
+  overflow: hidden;
+  background-color: #B5A2A2;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.topnav a:hover {
   color: whitesmoke;
 }
-.topnav a.active {
-  color: gainsboro;
+.topnav a.active {
+  color: gainsboro;
 }
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 20px 60px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: courier new;
-  font-weight: bold;
-}  
-.topnav a:hover {
-  color: whitesmoke;
-}  
-.topnav a.active {
-  color: gainsboro;
-}  
-.topnav .icon {
-  display: none;
-} 
+.topnav .icon {
+  display: none;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -88,6 +69,6 @@ body{
     text-align: left;
   }
 }
-.right-lnk {
-  float: right;
+.right-lnk {
+  float: right;
 }
