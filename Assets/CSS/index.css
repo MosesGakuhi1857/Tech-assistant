@@ -1,0 +1,136 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    border:2px red dashed;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* styling navbar */
+.navbar {
+    background-color: rgba(181, 162, 162, 1);
+    ;
+}
+
+a {
+    color: #fff;
+}
+
+/* end of styling navbar */
+
+
+/* section landing page */
+section {
+    background-color: rgba(243, 229, 229, 1);
+    height:100%;
+
+}
+
+p {
+    font-size: 2.3rem;
+    color: #333;
+    /* text-transform: uppercase; */
+    font-family:'Josefin Sans', sans-serif ;
+    line-height: 3rem;
+    /* list-style:georgian; */
+}
+
+p span {
+    /* background-color: #fff; */
+    text-transform: uppercase;
+}
+
+.text {
+    position: relative;
+    /* margin-top: auto; */
+    top: 80px;
+    left: 0%;
+    height:70%;
+    width: 55%;
+}
+
+.special-text {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    /* background-color: #fff; */
+}
+
+
+button {
+    display: inline-block;
+    padding: 5px;
+    /* width: auto; */
+    background-color: rgba(157, 112, 160, 1);
+    border-radius: 43%;
+    ;
+}
+
+button a {
+    text-decoration: none;
+    color: #333;
+}
+
+.one {
+    width: 80px;
+    height: 40px;
+}
+
+.two {
+    width: 160px;
+    height: 50px;
+}
+
+button a:hover {
+    color: #fff;
+    transform: scale(0.85);
+}
+
+
+
+.cardy {
+    width: 48%;
+    display: flex;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+     box-shadow: 7px 7px 6px grey,-7px -7px 6px grey;; 
+    background-color: #ffff;
+    border: 10px solid whitesmoke;
+    justify-content: center;
+}
+
+.cardy p {
+    width: 50%;
+    font-size: 0.7rem;
+    /* height: 50%; */
+    line-height: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cardy img {
+    border-radius: 40%;
+}
+
+.cardy p {
+    padding-left: 20px;
+}
+
+h6 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.p-special{
+font-size: 20px;
+}
+
+/* end of landing page */
+
+
+
+/* media queries */
+
+/* end of media queries */
