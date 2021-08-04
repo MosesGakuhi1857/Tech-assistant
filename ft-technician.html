@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
 
     <link rel='stylesheet' type='text/css' media='screen' href='Assets/CSS/bootstrap.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='Assets/CSS/ft-technician.css'>
@@ -27,18 +29,14 @@
 
         <header>
 
-            <p class="name">TECH. ASSISTANCE</p>
-
-            <nav>
-
-                <ul id="navlist">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="ft-technician.html">TECHNICIANS</a></li>
-                    <li><a href="ft-reviews.html">REVIEWS</a></li>
-                    <li><a href="ft-about.html">ABOUT US</a></li>
-                </ul>
-
-            </nav>
+            <div class="topnav" id="myTopnav">
+                <a class="navbar-brand logo" href="#"><img src="Assets/Images/logo.png" alt="techassistlogo"> </a>
+                <a href="index.html" class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+                <a href="ft-technician.html">Technicians <i class="fa fa-user"></i></a>
+                <a href="ft-reviews.html">Reviews <i class="far fa-check-circle"></i></a>
+                <a href="ft-about.html">About <i class="fa fa-book"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+              </div>
 
         </header>
 
@@ -545,59 +543,35 @@
 
         <!-- footer code -->
 
-        <footer>
-
-            <div class="row justify-content-evenly">
-                <div class="col-xl-4">
-
-                    <div class="contactLines">
-
-                        <p id="header1">CONTACTS</p>
-
-                        <p><strong>Email: </strong> <em> <a
-                                    href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBpDlvQwdLwDwRrfmHnPJgRnjBqcZbVvJTJJZXSkdTMDLVhnHWMdSHTLWHMpgBwcqFCnSfr">techassistant@gmail.com</a>
-                            </em> </p>
-
-                        <p><strong>Phone Number: </strong> <em>0714823765</em></p>
-
-                    </div>
+        <footer class="footer">
+            <div class="row">
+              <div class="col p-2">
+                <h5>CONTACTS</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <p>0712345678<i class="fa fa-phone"></i></p>
+                  </li>
+                  <a class="nav-link" href="mailto:techassist@example.com">techassist@example.com<i class="fa fa-envelope"></i></a>
+                </ul>
+              </div>
+              <div class="col p-2">
+                <h5>SOCIAL MEDIA</h5>
+                <div class="nav flex-column">
+                  <a href="https://www.facebook.com" target="_blank" class="p-2 primary-color"> <i
+                    class="fab fa-facebook fa-2x"></i></a>
+                  <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"> <i
+                    class="fab fa-instagram fa-2x"></i></a>
                 </div>
-
-                <div class="col-xl-4">
-
-                    <div class="socialMedia">
-
-                        <p id="header1"><strong>SOCIAL MEDIA</strong></p>
-
-                        <p><strong>Twitter: </strong> <em> <a href="https://twitter.com/Costed_">@Tech_Assistant</a>
-                            </em> </p>
-
-                        <p><strong>Facebook: </strong> <em> <a href="https://web.facebook.com/kirui.vitalis.7">Technical
-                                    Assistant</a> </em> </p>
-
-                    </div>
+              </div>
+              <div class="col p-2">
+                <h5>PARTNERS</h5>
+                <div class="nav flex-column">
+                  <a class="nav-link p-2" href="https://www.linkedin.com/">linkedin </a> <a class="nav-link"
+                    href="https://www.upwork.com/">Upwork</a>
                 </div>
-
-                <div class="col-xl-4">
-
-                    <div class="contactLines">
-
-                        <p id="header1">PARTNERS</p>
-
-                        <p><strong>F-SOCIETY CONSTRACTORS</strong></p>
-
-                        <p><strong>KENYA TECHNICAL SCHOOLS ASSOCIATION</strong></p>
-
-                    </div>
-                </div>
-
+              </div>
             </div>
-
-            <hr>
-
-            <p id="rights">&copy; Tech. Assistant. All Rights Reserved</p>
-
-        </footer>
+          </footer>
 
     </div>
 
