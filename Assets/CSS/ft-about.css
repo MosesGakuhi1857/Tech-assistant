@@ -18,5 +18,13 @@ body{
   background-color: #B5A2A2;
   color: black;
   text-align: center;
-} 
+}
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  }  
   
