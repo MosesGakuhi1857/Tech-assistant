@@ -26,5 +26,25 @@ body{
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 1px;
   font-weight: 300;
-  }  
-  
+}  
+.topnav {
+  overflow: hidden;
+  background-color: #B5A2A2;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 60px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: courier new;
+  font-weight: bold;
+}  
+.topnav a:hover {
+  color: whitesmoke;
+}
+.topnav a.active {
+  color: gainsboro;
+} 
