@@ -93,7 +93,7 @@ button {
     font-size: 23px;
     padding: 8px;
     padding-top: 12px;
-    
+
 
 }
 
@@ -113,7 +113,9 @@ button {
     color: darkmagenta;
 }
 
-.reviews1, .reviews2, .reviews3{
+.reviews1,
+.reviews2,
+.reviews3 {
     display: none;
 }
 
@@ -123,14 +125,16 @@ button {
 
 /* form styles */
 
-.submitForm{
+.submitForm {
     background-color: darkslategrey;
     color: yellow;
     border-radius: 20px;
     font-size: 24px;
 }
 
-.hireForm1, .hireForm2, .hireForm3{
+.hireForm1,
+.hireForm2,
+.hireForm3 {
     display: none;
     padding-top: 20px;
     font-size: 18px;
@@ -141,10 +145,10 @@ button {
 
 /* footer styles */
 
-footer{
+footer {
     /* width: 100%; */
     background-color: #9F9090;
-    border:1px;
+    border: 1px;
     margin-top: 20px;
     margin-left: 2px;
     margin-right: 2px;
@@ -156,10 +160,10 @@ footer{
 #header1 {
     font-size: 30px;
     font-weight: 600;
-    color:#112011;
+    color: #112011;
 }
 
-footer a:hover{
+footer a:hover {
     color: yellow;
 }
 
