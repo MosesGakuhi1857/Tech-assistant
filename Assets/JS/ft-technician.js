@@ -241,3 +241,24 @@ $(document).ready (function(){
         $(".hireForm3").hide();
 
     });
+
+    // Animating technician 4
+
+    $("#reviewsButton3").click(function(events){
+
+        $(".reviews3").slideToggle();
+        $(".hireForm3").hide();
+
+    });
+
+    $("#hireButton3").click(function(){
+
+        $(".hireForm3").slideToggle();
+        $(".hireForm2").hide();
+        $(".hireForm1").hide();
+
+    });
+
+    events.preventDefault()
+
+});
