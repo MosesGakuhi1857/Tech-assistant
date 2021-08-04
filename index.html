@@ -14,41 +14,24 @@
         integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-    <nav class="navbar navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./Assets/Images/onlinelogomaker-080321-2356-9456.png" alt=""></a>
+   <!-- nav bar starts -->
+   <div class="topnav" id="myTopnav">
+    <a class="navbar-brand logo" href="#"><img src="Assets/Images/techassistlogo.png" alt="techassistlogo"> </a>
+    <a href="index.html"  class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="ft-technician.html">Technicians <i class="fa fa-user"></i></a>
+    <a href="ft-reviews.html">Reviews <i class="far fa-check-circle"></i></a>
+    <a href="ft-about.html">About <i class="fa fa-book"></i></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-                <ul class="navbar-nav ms-auto text-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Technician</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-
+   <!-- navbar ends -->
     <!-- landing page section -->
     <section>
         <div class="container">
@@ -58,28 +41,64 @@
                         <span>trustworthy</span> <br>
                         manpower is a problem?<br>
                         <span class="special-text"> At Tech-Assistant we present our clients <br>
-                            with qualified & skilled personnel
+                            with <em>qualified & skilled </em>  personnel
                             for quality services.</span>
                     </p>
-                    <button class="one"><a href="#">hire</a></button>
+                    <button class="one"><a href="ft-technician.html">hire</a></button>
 
                     <p> <span class="p-special"> Are you a qualified technician and would like to be part of us? </span>
                     </p>
                     <button class="two"><a href="#">post credentials</a></button><br>
-                    <h6>latest Reviews</h6>
+                    <h6>Latest Reviews</h6>
                     <div class="cardy">
                         <img src="./Assets/Images/face.tech.jpg" height="80px" width="80px" alt="">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatibus obcaecati dicta
-                            neque,
-                            autem temporibus earum repellat aspernatur .</p>
+                        <div>
+                            <p>Tech-Assistant is a really amazing app.it really came through for me and i can't stopping
+                                thanking the management .</p>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-3 img">
-                    <img src="./Assets/Images/tech.man2.png" height="800px" width="700px" alt="">
+                    <img src="./Assets/Images/tech.man2.png" class="img-main" height="800px" width="800px" alt="">
                 </div>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="row">
+          <div class="col p-2">
+            <h5>CONTACTS</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <p>0712345678<i class="fa fa-phone"></i></p>
+              </li>
+              <a class="nav-link" href="mailto:techassist@example.com">techassist@example.com<i class="fa fa-envelope"></i></a>
+            </ul>
+          </div>
+          <div class="col p-2">
+            <h5>SOCIAL MEDIA</h5>
+            <div class="nav flex-column">
+              <a href="https://www.facebook.com" target="_blank" class="p-2 primary-color"> <i
+                class="fab fa-facebook fa-2x"></i></a>
+              <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"> <i
+                class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <div class="col p-2">
+            <h5>PARTNERS</h5>
+            <div class="nav flex-column">
+              <a class="nav-link p-2" href="https://www.linkedin.com/">linkedin </a> <a class="nav-link"
+                href="https://www.upwork.com/">Upwork</a>
+            </div>    
+          </div>
+        </div>
+      </footer>
+    <script src="Assets/JS/"></script>
 </body>
 
 </html>
