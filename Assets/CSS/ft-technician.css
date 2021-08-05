@@ -1,0 +1,170 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+}
+
+/* Stylings for the navigation bar and its content */
+
+.navbar {
+  background-color: #B5A2A2;
+  width: 100%;
+}
+
+.collapse ul li {
+  font-size: 2rem;
+  padding: 0 50px;
+}
+
+.nav-link:hover {
+  border-right: 4px solid whitesmoke;
+  border-bottom: 4px solid whitesmoke;
+  color: #fff;
+  transform: scale(0.78);
+}
+
+/* End of Navigation Bar stylings */
+
+/* Team of technicians styles */
+
+.technicianTeam {
+    padding: 20px;
+    background-color: #F3E5E5;
+}
+
+.techniciansProfiles{
+  padding-left: 100px;
+}
+
+h1 {
+    font-size: 600;
+    color: #002993;
+    text-align: center;
+}
+
+.technicianTeam p {
+    font-size: 25px;
+}
+
+.techDetails {
+    text-align: start;
+    font-weight: 900;
+}
+
+.techDetails ul li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.techDetails ul {
+    padding-top: 20px;
+}
+
+.techDetails img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+button {
+    background-color: #444868;
+    color: yellow;
+    font-size: 15px;
+    padding: 8px;
+    padding-top: 12px;
+}
+
+.details {
+    color: darkmagenta;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+#reviewer {
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.reviewerName {
+    color: darkmagenta;
+}
+
+.reviews1,
+.reviews2,
+.reviews3 {
+    display: none;
+}
+
+/* .reviewItself {
+    text-align: center;
+} */
+
+/* form styles */
+
+.submitForm {
+    background-color: darkslategrey;
+    color: yellow;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.hireForm1,
+.hireForm2,
+.hireForm3 {
+    display: none;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* end of form styles */
+
+/* footer styles */
+
+footer {
+  padding: 20px;
+  font-size: 14px;
+  height: 50%;
+  background-color: #B5A2A2;
+}
+
+.f-one i {
+  display: flex;
+  margin-left: 170px;
+  padding: 5px;
+}
+
+.f-two {
+  list-style: none;
+  font-size: 20px;
+  transform: uppercase;
+  padding: 5px;
+  padding-left: 130px;
+}
+
+#social{
+  padding-left: 175px;
+}
+
+footer h5 {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.f-three {
+  padding: 35px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.fab:hover {
+  transform: scale(0.88);
+  color: #fff;
+}
+
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
