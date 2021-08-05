@@ -1,13 +1,3 @@
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  
 // Form validation 1
 
 $(document).ready(function () {
@@ -70,10 +60,8 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        }
-
-        else{
-            alert("Hi "+ name + "\nYou have successfully contacted Sambu. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        } else {
+            alert("Hi " + name + "\nYou have successfully contacted Sambu. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
         }
 
     });
@@ -142,10 +130,8 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        }
-
-        else{
-            alert("Hi "+ name + "\nYou have successfully contacted Victor. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        } else {
+            alert("Hi " + name + "\nYou have successfully contacted Victor. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
         }
 
     });
@@ -214,10 +200,8 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        }
-
-        else{
-            alert("Hi "+ name + "\nYou have successfully contacted Eden. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        } else {
+            alert("Hi " + name + "\nYou have successfully contacted Eden. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
         }
 
     });
@@ -242,8 +226,15 @@ $(document).ready(function () {
     $("#hireButton1").click(function () {
 
         $(".hireForm1").slideToggle();
+        // $(".hireForm2").hide();
+        // $(".hireForm3").hide();
+
+    });
+
+    $("#form1").click(function () {
         $(".hireForm2").hide();
         $(".hireForm3").hide();
+        $(".hireForm1").hide();
 
     });
 
@@ -259,8 +250,15 @@ $(document).ready(function () {
     $("#hireButton2").click(function () {
 
         $(".hireForm2").slideToggle();
+        // $(".hireForm1").hide();
+        // $(".hireForm3").hide();
+
+    });
+
+    $("#form2").click(function () {
         $(".hireForm1").hide();
         $(".hireForm3").hide();
+        $(".hireForm2").hide();
 
     });
 
@@ -276,8 +274,15 @@ $(document).ready(function () {
     $("#hireButton3").click(function () {
 
         $(".hireForm3").slideToggle();
+        // $(".hireForm2").hide();
+        // $(".hireForm1").hide();
+
+    });
+
+    $("#form3").click(function () {
         $(".hireForm2").hide();
         $(".hireForm1").hide();
+        $(".hireForm3").hide();
 
     });
 
