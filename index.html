@@ -9,29 +9,91 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
         integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./Assets/CSS/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"
-        integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
 </head>
 
 <body>
-   <!-- nav bar starts -->
-   <div class="topnav" id="myTopnav">
-    <a class="navbar-brand logo" href="#"><img src="Assets/Images/techassistlogo.png" alt="techassistlogo"> </a>
-    <a href="index.html"  class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
-    <a href="ft-technician.html">Technicians <i class="fa fa-user"></i></a>
-    <a href="ft-reviews.html">Reviews <i class="far fa-check-circle"></i></a>
-    <a href="ft-about.html">About <i class="fa fa-book"></i></a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-  </div>
+    <!-- nav bar starts -->
+    
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <img src="./Assets/Images/techassistlogo.png" class="navbar-brand" alt="logo">
 
-   <!-- navbar ends -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ms-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ft-technician.html">Technician</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ft-reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ft-about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <!-- </div> -->
+
+
+    <!-- <nav class="navbar navbar-extend-lg ">
+        <img src="./Assets/Images/techassistlogo.png" class="navbar-brand" alt="Logo">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#" class="nav-link" >Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link" >Technician</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link" >Reviews</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link" >About us</a>
+                </li>
+            </ul>
+        </div>
+    </nav> -->
+
+
+    <!-- <div class="topnav" id="myTopnav">
+        <a class="navbar-brand logo" href="#"><img src="Assets/Images/techassistlogo.png" alt="techassistlogo"> </a>
+        <a href="index.html" class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+        <a href="ft-technician.html">Technicians <i class="fa fa-user"></i></a>
+        <a href="ft-reviews.html">Reviews <i class="far fa-check-circle"></i></a>
+        <a href="ft-about.html">About <i class="fa fa-book"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div> -->
+
+    <!-- navbar ends -->
     <!-- landing page section -->
     <section>
         <div class="container">
@@ -41,7 +103,7 @@
                         <span>trustworthy</span> <br>
                         manpower is a problem?<br>
                         <span class="special-text"> At Tech-Assistant we present our clients <br>
-                            with <em>qualified & skilled </em>  personnel
+                            with <em>qualified & skilled </em> personnel
                             for quality services.</span>
                     </p>
                     <button class="one"><a href="ft-technician.html">hire</a></button>
@@ -71,33 +133,30 @@
     </section>
     <footer class="footer">
         <div class="row">
-          <div class="col p-2">
-            <h5>CONTACTS</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <p>0712345678<i class="fa fa-phone"></i></p>
-              </li>
-              <a class="nav-link" href="mailto:techassist@example.com">techassist@example.com<i class="fa fa-envelope"></i></a>
-            </ul>
-          </div>
-          <div class="col p-2">
-            <h5>SOCIAL MEDIA</h5>
-            <div class="nav flex-column">
-              <a href="https://www.facebook.com" target="_blank" class="p-2 primary-color"> <i
-                class="fab fa-facebook fa-2x"></i></a>
-              <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"> <i
-                class="fab fa-instagram fa-2x"></i></a>
+            <div class="col-lg-4 f-one">
+                <h5>SOCIAL MEDIA</h5>
+                <i class="fab fa-facebook-f fa-2x">Facebook</i>
+                <i class="fab fa-instagram fa-2x">Instagram</i>
+                <i class="fab fa-twitter fa-2x">Twitter</i>
             </div>
-          </div>
-          <div class="col p-2">
-            <h5>PARTNERS</h5>
-            <div class="nav flex-column">
-              <a class="nav-link p-2" href="https://www.linkedin.com/">linkedin </a> <a class="nav-link"
-                href="https://www.upwork.com/">Upwork</a>
-            </div>    
-          </div>
+            <div class="col-lg-4 f-two">
+                <h5>PARTNERS</h5>
+                <li>FINDJOBERS</li>
+                <li>SAFCOM</li>
+                <li>NO SCAMMERS</li>
+
+            </div>
+            <div class="col-lg-4 ">
+                <h5>CONTACT</h5>
+                <i class="fas fa-envelope fa-2x"> techassistant@gmail.com</i>
+                <i class="fas fa-phone fa-2x">+254798015111</i>
+            </div>
         </div>
-      </footer>
+        <p>copyright 2021 &copy; Tech-assistant.co</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"
+        integrity="sha512-a6ctI6w1kg3J4dSjknHj3aWLEbjitAXAjLDRUxo2wyYmDFRcz2RJuQr5M3Kt8O/TtUSp8n2rAyaXYy1sjoKmrQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="Assets/JS/"></script>
 </body>
 
