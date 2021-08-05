@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" />
 
 
     <link rel='stylesheet' type='text/css' media='screen' href='Assets/CSS/bootstrap.css'>
@@ -23,20 +24,35 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
 
         <!-- Navigation Bar code -->
 
         <header>
 
-            <div class="topnav" id="myTopnav">
-                <a class="navbar-brand logo" href="#"><img src="Assets/Images/logo.png" alt="techassistlogo"> </a>
-                <a href="index.html" class="active">Home <i class="fa fa-home" aria-hidden="true"></i></a>
-                <a href="ft-technician.html">Technicians <i class="fa fa-user"></i></a>
-                <a href="ft-reviews.html">Reviews <i class="far fa-check-circle"></i></a>
-                <a href="ft-about.html">About <i class="fa fa-book"></i></a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-              </div>
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <img src="Assets/Images/logo.png" class="navbar-brand" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ft-technician.html">Technicians</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ft-reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ft-about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
         </header>
 
@@ -49,8 +65,7 @@
             <h1>MEET OUR AMAZING TEAM OF TECHNICIANS</h1>
 
             <P>Hello there, thanks for choosing <strong>TECH. ASSISTANT </strong> and taking this step of being in this
-                page. Here, you will find our able men and women.
-                At tech Assistant we priorities <strong><em>quality service </em></strong> to our customers. This is why
+                page. Here, you will find our able men and women. At tech Assistant we priorities <strong><em>quality service </em></strong> to our customers. This is why
                 we got the best team around working at the highest level they can.
                 We hope we shall be of assistance and be able to solve whatever the issue you are going through. </P>
 
@@ -84,7 +99,7 @@
                                         </li>
                                     </ul>
 
-                                    <button id="reviewsButton1">REVIEWS</button>
+                                    <button id="reviewsButton1">TECHNICIAN'S REVIEWS</button>
 
                                 </div>
 
@@ -172,7 +187,7 @@
 
                                     </div>
 
-                                    <button id="hireButton1">HIRE</button>
+                                    <button id="hireButton1">HIRE THIS TECHNICIAN</button>
 
 
                                     <!-- form for hiring sambu -->
@@ -243,7 +258,7 @@
                                         </li>
                                     </ul>
 
-                                    <button id="reviewsButton2">REVIEWS</button>
+                                    <button id="reviewsButton2">TECHNICIAN'S REVIEWS</button>
 
                                 </div>
 
@@ -325,7 +340,7 @@
 
                                     <!-- end of reviews for victor -->
 
-                                    <button id="hireButton2">HIRE</button>
+                                    <button id="hireButton2">HIRE THIS TECHNICIAN</button>
 
                                     <!-- hire victor form -->
 
@@ -395,7 +410,7 @@
                                         </li>
                                     </ul>
 
-                                    <button id="reviewsButton3">REVIEWS</button>
+                                    <button id="reviewsButton3">TECHNICIAN'S REVIEWS</button>
 
                                 </div>
 
@@ -483,7 +498,7 @@
 
                                     </div>
 
-                                    <button id="hireButton3">HIRE</button>
+                                    <button id="hireButton3">HIRE THIS TECHNICIAN</button>
 
                                     <!-- hiring form -->
 
@@ -538,39 +553,35 @@
 
             </div>
 
+            
+
         </div>
 
         <!-- footer code -->
 
         <footer class="footer">
             <div class="row">
-              <div class="col p-2">
-                <h5>CONTACTS</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item">
-                    <p>0712345678<i class="fa fa-phone"></i></p>
-                  </li>
-                  <a class="nav-link" href="mailto:techassist@example.com">techassist@example.com<i class="fa fa-envelope"></i></a>
-                </ul>
-              </div>
-              <div class="col p-2">
-                <h5>SOCIAL MEDIA</h5>
-                <div class="nav flex-column">
-                  <a href="https://www.facebook.com" target="_blank" class="p-2 primary-color"> <i
-                    class="fab fa-facebook fa-2x"></i></a>
-                  <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"> <i
-                    class="fab fa-instagram fa-2x"></i></a>
+                <div class="col-lg-4 f-one">
+                    <h5 id="social">SOCIAL MEDIA</h5>
+                    <i class="fab fa-facebook-f fa-2x">Facebook</i>
+                    <i class="fab fa-instagram fa-2x">Instagram</i>
+                    <i class="fab fa-twitter fa-2x">Twitter</i>
                 </div>
-              </div>
-              <div class="col p-2">
-                <h5>PARTNERS</h5>
-                <div class="nav flex-column">
-                  <a class="nav-link p-2" href="https://www.linkedin.com/">linkedin </a> <a class="nav-link"
-                    href="https://www.upwork.com/">Upwork</a>
+                <div class="col-lg-4 f-two">
+                    <h5>PARTNERS</h5>
+                    <li>FINDJOBERS</li>
+                    <li>SAFCOM</li>
+                    <li>NO SCAMMERS</li>
                 </div>
-              </div>
+                <div class="col-lg-4 ">
+                    <h5>CONTACT</h5>
+                    <i class="fas fa-envelope fa-2x"> techassistant@gmail.com</i>
+                    <i class="fas fa-phone fa-2x">+254798015111</i>
+                </div>
             </div>
-          </footer>
+            <p>copyright 2021 &copy; Tech-assistant.co</p>
+        </footer>
+
 
     </div>
 
