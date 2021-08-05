@@ -70,7 +70,11 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        };
+        }
+
+        else{
+            alert("Hi "+ name + "\nYou have successfully contacted Sambu. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        }
 
     });
 
@@ -138,7 +142,11 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        };
+        }
+
+        else{
+            alert("Hi "+ name + "\nYou have successfully contacted Victor. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        }
 
     });
 
@@ -206,7 +214,11 @@ $(document).ready(function () {
         if (phoneN.length < 10 || phoneN.length > 13) {
             alert("Please provide a valid phone number.")
             return false;
-        };
+        }
+
+        else{
+            alert("Hi "+ name + "\nYou have successfully contacted Eden. \nHe will be there inside 30 minutes. \nPlease be patient. \nThank you for choosing us.")
+        }
 
     });
 
