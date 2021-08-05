@@ -34,9 +34,14 @@ html {
     background-color: #F3E5E5;
 }
 
+.techniciansProfiles{
+  padding-left: 100px;
+}
+
 h1 {
     font-size: 600;
     color: #002993;
+    text-align: center;
 }
 
 .technicianTeam p {
