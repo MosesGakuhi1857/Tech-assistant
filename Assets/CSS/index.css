@@ -257,38 +257,44 @@ h6 {
     .img {
         margin-right: auto;
         margin-left: 200px;
+        height: 400px;
+        width: 400px;
+    }
+
+    * {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width:769px) {
+        .img {
+            margin-left: 170px;
+        }
+
+    }
+
+    @media screen and (max-width:510px) {
+        .img {
+            margin-left: 130px;
+        }
+    }
+
+    @media screen and (max-width:510px) {
+        .img {
+            margin-left: 100px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {
+            position: relative;
+        }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
     }
 }
 
-@media screen and (max-width:769px) {
-    .img {
-        margin-left: 170px;
-    }
-
-}
-
-@media screen and (max-width:510px) {
-    .img {
-        margin-left: 130px;
-    }
-}
-
-@media screen and (max-width:510px) {
-    .img {
-        margin-left: 100px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-}
-
-/* end of media queries *
+/* end of media queries/*
