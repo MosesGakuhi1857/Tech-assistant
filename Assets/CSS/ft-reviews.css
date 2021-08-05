@@ -6,14 +6,28 @@
 body{
     background-color: #dfd3d3;
 }
-
-.header{
+.navbar{
+  background-color: #B5A2A2;
+  width: 100%;
+}
+.collapse ul li{
+    font-size: 2rem;
+    padding:0 10px ;
+}
+.nav-link:hover{
+   border-right: 4px solid whitesmoke;
+   border-bottom:4px solid whitesmoke ;
+   color: #fff;
+   transform: scale(0.78);
+}
+.header h2{
     font-size: 30px;
     color: #002993;
-    padding-left: 40px;
     padding-top: 10px;
-    
-
+    text-align: center;
+}
+.header{
+  padding: 30px;
 }
 
 .hide{
@@ -27,7 +41,7 @@ h6{
 p{
     font-size: 20px;
 }
-img{
+.img{
     border-radius: 50%;
     
     
@@ -36,39 +50,74 @@ img{
     height: 200px;
 }
 .button{
-    padding-left: 500px;
-    padding-top: 50px;
-    color: #002993;
-
+  padding-left: 450px;
 }
-#button{
-    color:#000000;
-    background-color:#002993;
-    padding:10px;
+#button {
+  background-color: #444868;
+  color: yellow;
+  font-size: 15px;
+  padding: 8px;
+  padding-left:10px;
+  padding-top: 12px;
 }
 .user-name{
-    color: maroon;
+    color: darkmagenta;
     padding-left: 5px;
 }
 p{
     padding-top: 5px;
 }
-.footer {
-    left: 0;
-    bottom: 0;
-    background-color: #B5A2A2;
-    color: black;
-    text-align: center;
-    font-size: 25px;
-  }
+footer{
+  padding:20px;
+  font-size: 14px;
+  height:50%;
+  background-color: #B5A2A2;
+}
+.f-one i{
+  display: flex;
+  margin-left:170px;
+  padding: 5px;
+}
+.f-two{
+  list-style: none;
+  font-size: 20px;
+  transform: uppercase;
+  padding: 5px;
+  padding-left: 130px;
+}
+footer h5{
+  text-decoration: underline;
+  font-weight: 600;
+}
+#h5{
+  padding-left: 175px;
+}
+.f-three{
+  padding: 35px;
+  text-align: center;
+  font-size: 10px;
+}
+.fab:hover{
+  transform: scale(0.88);
+  color: #fff;
+}
+footer p {
+  font-size: 15px;
+  text-align: center;
+}
+/* .navbar-brand{
+  height: 100px;
+} */
 
-.topnav {
+/* .topnav {
   overflow: hidden;
   font-size: 25px;  
   background-color: #B5A2A2;
   size: 200px;
 }
-
+.div{
+    padding-left: 30px;
+}
 .topnav a {
   float: left;
   display: block;
@@ -106,9 +155,9 @@ p{
 }  
 .topnav .icon {
   display: none;
-} 
+}  */
 .user-name{
-    color: #002993;
+    color: darkmagenta;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .logo{
