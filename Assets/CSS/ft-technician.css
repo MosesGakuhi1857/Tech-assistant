@@ -65,17 +65,13 @@ h1 {
 button {
     background-color: #444868;
     color: yellow;
-    /* border-radius: 30px; */
-    /* font-weight: 600; */
     font-size: 15px;
     padding: 8px;
     padding-top: 12px;
-
-
 }
 
 .details {
-    color: blue;
+    color: darkmagenta;
     padding-left: 20px;
     font-size: 24px;
 }
